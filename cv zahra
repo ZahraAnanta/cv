@@ -1,0 +1,195 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <style>
+
+        * {
+            font-family: cursive;
+            background-color: aliceblue;
+        }
+
+        #utama {
+            text-align: center;
+        }
+
+        #nama {
+            border-block-end-style: solid;
+        }
+
+        #ListPendidikan, #ListPengalaman, #ListPrestasi, #ListSkill {
+            text-align: center;
+        }
+
+        #ListPengalaman {
+            border-top-left-radius: 30px;
+            border-top-right-radius: 30px;
+            border-bottom-left-radius: 30px;
+            border-bottom-right-radius: 30px;
+            border-style: groove;
+        }
+
+        #ListPendidikan {
+            border-style: groove;
+            border-top-left-radius: 30px;
+            border-top-right-radius: 30px;
+            border-bottom-left-radius: 30px;
+            border-bottom-right-radius: 30px;
+        }
+
+        #ListPrestasi {
+            border-style: groove;
+            border-top-left-radius: 30px;
+            border-top-right-radius: 30px;
+            border-bottom-left-radius: 30px;
+            border-bottom-right-radius: 30px;
+        }
+
+        #ListSkill {
+            border-style: groove;
+            border-top-left-radius: 30px;
+            border-top-right-radius: 30px;
+            border-bottom-left-radius: 30px;
+            border-bottom-right-radius: 30px;
+        }
+
+        #foto {
+            border-style: ridge;
+            border-top-right-radius: 200px;
+            border-top-left-radius: 200px;
+            border-bottom-left-radius: 200px;
+            border-bottom-right-radius: 200px;
+        }
+
+        #judulisi {
+            border-radius: 100%;
+            border-top-right-radius: 200px;
+            border-top-left-radius: 200px;
+            border-bottom-left-radius: 200px;
+            border-bottom-right-radius: 200px;
+            background-color: antiquewhite;
+        }
+
+        #desk {
+            border-left-color: black;
+            border-right-color: black;
+            border-left-style: groove;
+            border-right-style: groove;
+        }
+    </style>
+
+
+    <title>
+        CV Zahra Areefa Ananta
+    </title>
+</head>
+<body>
+
+    <table id="utama" width="780px" align="center">
+        <tr>
+         <td>
+                <img src="foto.png" height="200px" width="200px" id="foto">
+
+            </td>
+            <td id="nama">
+                <h1><i>ZAHRA AREEFA ANANTA</i> </h1>
+                <h1>Teknik Informatika</h1>
+            </td>
+        </tr>
+
+
+        <tr>
+            <td colspan="2">
+                <h2 id="judulisi">Deskripsi</h2>
+            </td>
+        </tr>
+
+
+
+        <td colspan="2" id="desk">
+            Saya merupakan mahasiswa S1 Teknik Informatika. Saya tertarik dengan dunia programming sejak SMA.
+            Saat ini saya berkuliah di Institut Teknologi Sumatera di semester tiga.
+        </td>
+
+        <tr>
+            <td><h2 id="judulisi">Pengalaman</h2></td>
+            <td><h2 id="judulisi">Pendidikan</h2></td>
+        </tr>
+
+        <td colspan="1" id="ListPengalaman">
+            <b>PPLK 2022 </b> <br>
+            Sekertaris Divisi - Iplementasi Teknologi <br>
+            <br>
+            <b>BPH Angkatan Informatika 2021 </b> <br>
+            Staff Divisi Non Akademik<br>
+            <br>
+            <b>Panitia funcoustic HMIF</b> <br>
+            Staff Divisi Acara<br>
+            <br>
+
+            <b>Panitia First Gathering Teknik Informatika 2022</b><br>
+            Staff Divisi Acara<br>
+            <br>
+
+
+
+        </td>
+
+        <td id="ListPendidikan">
+
+            <b>SMA Negeri 3 Kotabumi</b> <br>
+            2018-2021 <br>
+            MIPA <br>
+
+            <br>
+
+            <b>Institut Teknologi Sumatera  </b><br>
+            2021 - sekarang <br>
+            S1 Teknik Informatika <br>
+
+
+        </td>
+
+        <tr>
+        <tr>
+            <td><h2 id="judulisi">Skill Lainnya</h2></td>
+        </tr>
+
+
+
+        <tr>
+            
+
+            <td id="ListSkill">
+
+                <b> Microsoft Office </b>
+                <br>
+                Rookie
+            </td>
+
+        </tr>
+        <tr>
+            <td colspan="2"><h2 id="judulisi">Contact Me</h2></td>
+        </tr>
+
+        <tr>
+            <td colspan="2">Email : zahra.121140138@student.itera.ac.id</td>
+        </tr>
+        <tr>
+            <td colspan="2">Instagram : <a href="https://www.instagram.com/p/CiCZaqTvRvk/?utm_source=ig_web_copy_link">@zhrannta_</a></td>
+
+        </tr>
+        </tr>
+
+
+
+
+
+
+
+    </table>
+
+
+
+
+</body>
+</html>
